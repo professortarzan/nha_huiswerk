@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        float: left;
+        padding: 10px;
+    }
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    li {
+        font-size: small;
+    }
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 1px black;
+}
+
+header {
+    height: 200px;
+    background-image: url(../img/amsterdam-background-pic.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#een {
+    min-height: 250px;
+    padding: 10px 20px 10px 0;
+    background-color: lightblue;
+}
+
+h4 {
+    padding-left: 15px;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#twee {
+    min-height: 420px;
+    padding: 10px;
+    background-color: gold;
+}
+
+p {
+    font-size: 16px;
+}
+
+article {
+    margin-bottom: 100px;
+}
+
+img {
+    float: right;
+    height: 140px;
+    width: 140px;
+    margin-left: 10px;
+}
+
+footer {
+    margin-top: 25px;
+}
